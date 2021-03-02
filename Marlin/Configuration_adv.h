@@ -1,7 +1,7 @@
 // override default pin defenition - Robert Sheng
 #define FIL_RUNOUT_PIN                  P1_26
-#define FAN1_PIN                                -1
-#define FAN_PIN                                   P2_04
+#define FAN1_PIN                        -1
+#define FAN_PIN                         P2_04
 
 /**
  * Marlin 3D Printer Firmware
