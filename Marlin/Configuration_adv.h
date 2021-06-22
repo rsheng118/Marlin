@@ -3691,8 +3691,8 @@
  * User-defined menu items to run custom G-code.
  * Up to 25 may be defined, but the actual number is LCD-dependent.
  */
-#define CUSTOM_USER_MENUS
-#if ENABLED(CUSTOM_USER_MENUS)
+#define CUSTOM_MENU_MAIN
+#if ENABLED(CUSTOM_MENU_MAIN)
   //#define CUSTOM_USER_MENU_TITLE "Custom Commands"
   #define USER_SCRIPT_DONE "M117 User Script Done"
   #define USER_SCRIPT_AUDIBLE_FEEDBACK
